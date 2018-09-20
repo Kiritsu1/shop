@@ -1,0 +1,200 @@
+	.product>div:nth-child(n) {
+		background-color: #fff;
+	}
+	
+	.product .swiper {
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		margin: 8px;
+		width: 95%;
+		border-radius: 15px;
+		overflow: hidden;
+	}
+	
+	.product .outer-swiper,
+	.product .product-desc,
+	.product .product-props,
+	.product .product-info {
+		border-radius: 5px;
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		margin: 3px;
+	}
+	
+	.product .outer-swiper ul,
+	.product .product-desc ul,
+	.product .product-props ul,
+	.product .product-info ul {
+		padding: 0;
+	}
+	
+	.product .product-desc ul li,
+	.product .product-props ul li,
+	.product .product-info ul li {
+		list-style: none;
+		font-size: 15px;
+		color: rgba(0, 0, 0, 0.5);
+		margin-top: 8px;
+	}
+	
+	.product .product-desc ul>:nth-child(1) span {
+		letter-spacing: 1px;
+		color: #FF5053;
+		font-size: 17px;
+		font-weight: bold;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		margin-bottom: 5px;
+	}
+	
+	.product .product-desc ul>:nth-child(1) {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+	}
+	
+	.product .product-desc ul,
+	.product .product-info ul,
+	.product .product-props ul {
+		padding-left: 10px;
+	}
+	
+	.product .price-li span {
+		color: red;
+		font-size: 25px;
+	}
+	
+	.product .price-li s {
+		margin-right: 16px;
+	}
+	
+	.product .number-li span {
+		display: inline-block;
+		border: 2px solid rgba(0, 0, 0, 0.1);
+		width: 25px;
+	}
+	
+	.product .product-props ul>:nth-child(1) {
+		text-align: left;
+	}
+	
+	.product .product-props ul:not(:nth-child(1)) {
+		margin-left: 40px;
+	}
+	
+	.product .product-info ul {
+		margin-bottom: 10px;
+		padding: 0 5;
+	}
+	
+	.product .pro_introduction {
+		border-radius: 5px;
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		margin: 3px;
+	}
+	
+	.product .pro_introduction p:nth-child(1) {
+		letter-spacing: 1px;
+		padding: 5px 5px 5px 5px;
+		font-weight: bold;
+	}
+	
+	.product .pro_introduction p:nth-child(2) {
+		letter-spacing: 1px;
+		padding: 5px 5px 5px 5px;
+		text-indent: 2em;
+	}
+	
+	.product .pro_introduction p:nth-child(2) img {
+		width: 100%;
+	}
+	
+	.product .number-li span {
+		text-align: center;
+	}
+	
+	.product .number-li>:nth-child(2) {
+		width: 40px;
+	}
+	
+	.product .ball {
+		border-radius: 50%;
+		background-color: red;
+		width: 24px;
+		height: 24px;
+		position: absolute;
+		top: 440px;
+		left: 120px;
+		display: inline-block;
+		z-index: 9999;
+	}
+	/*轮播图样式*/
+	
+	.product .mint-swipe {
+		height: 187px;
+		text-align: center;
+	}
+	
+	.product .mint-swipe a {
+		display: block;
+		height: 100%;
+	}
+	
+	.product .mint-swipe img {
+		height: 100%;
+		background-size: auto;
+	}
+	
+	.product .bottom {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		border-top: 1px solid #c3c3c3;
+	}
+	
+	.product .bottom>div:nth-child(1),
+	.product .bottom>div:nth-child(2),
+	.product .bottom>div:nth-child(3) {
+		float: left;
+		width: 11%;
+		padding: 25px 4px 0 4px;
+	}
+	
+	.product .bottom>div {
+		height: 100%;
+		position: relative;
+		font-size: 16px;
+		line-height: 30px;
+		text-align: center;
+	}
+	
+	.product .bottom>div span:nth-child(1) {
+		position: absolute;
+		top: 10%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	
+	.product .bottom>div span:nth-child(2) {
+		white-space: nowrap;
+	}
+	
+	.product .bottom .addcollect span:nth-child(1) {
+		color: #F56B6B;
+	}
+	
+	.product .bottom .buy {
+		font-size: 16px;
+		width: 30%;
+		margin: 5px 0 5px 8px;
+		border-radius: 20px 0 0 20px;
+		float: right;
+	}
+	
+	.product .bottom .addshopcart {
+		font-size: 16px;
+		width: 30%;
+		margin: 5px 8px 5px 0;
+		border-radius: 0 20px 20px 0;
+		float: right;
+	}

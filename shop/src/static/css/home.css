@@ -1,0 +1,151 @@
+.home header {
+	height: 44px;
+	background-color: #FC605A;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.home .fdj {
+	position: absolute;
+	top: 50%;
+	left: 40px;
+	font-size: 18px;
+	color: #FC605A;
+	transform: translateY(-50%);
+}
+
+.home .center {
+	display: flex;
+}
+
+.home .search {
+	height: 28px;
+	flex: 7;
+	border: 0;
+	border-radius: 14px;
+	padding-left: 40px;
+	margin: 8px 16px;
+	color: #909090;
+}
+
+.home .search:before {
+	content: ;
+}
+
+.home .header_icon {
+	margin: 8px;
+	height: 28px;
+	width: 29px;
+	flex: 1;
+}
+
+.home .header_icon span {
+	color: #fff;
+	font-size: 28px
+}
+
+.home .swipe {
+	height: 160px;
+}
+
+.home img {
+	width: 100%;
+}
+
+.home .icon_btn {
+	padding: 12px 0 25px 0;
+	border-bottom: solid 1px #CCCCCC;
+	background-color: #fff;
+}
+
+.home .icon_btn li {
+	float: left;
+	padding: 10px 0 0 14px;
+	width: 25%;
+}
+
+.home .icon_btn li a span:nth-child(1) {
+	text-align: center;
+	font-size: 38px;
+	display: block;
+}
+
+.home .icon_btn li a span:nth-child(2) {
+	display: block;
+	text-align: center;
+	width: 100%;
+	margin-top: 8px;
+	font-size: 15px;
+	color: #333;
+}
+
+
+/*设置图标颜色*/
+
+.home .icon_btn li:nth-child(1) a span:nth-child(1) {
+	color: red;
+}
+
+.home .icon_btn li:nth-child(2) a span:nth-child(1) {
+	color: #ff8300;
+}
+
+.home .icon_btn li:nth-child(3) a span:nth-child(1) {
+	color: #ffca00;
+}
+
+.home .icon_btn li:nth-child(4) a span:nth-child(1) {
+	color: #f00;
+}
+
+.home .icon_btn li:nth-child(5) a span:nth-child(1) {
+	color: #ff4a7b;
+}
+
+.home .icon_btn li:nth-child(6) a span:nth-child(1) {
+	color: #f56b6b;
+}
+
+.home .icon_btn li:nth-child(7) a span:nth-child(1) {
+	color: #ff5400;
+}
+
+.home .icon_btn li:nth-child(8) a span:nth-child(1) {
+	color: #f1b243;
+}
+
+.home .new_pattern {
+	margin-top: 5px;
+	border-top: solid 1px #CCCCCC;
+	background-color: #fff;
+}
+
+.home .new_pattern_list li {
+	float: left;
+	width: 45%;
+	margin: 4px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.home .new_pattern_list li p {
+	overflow: hidden;
+	width: 100%;
+	margin: 2% 0;
+	color: #333;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.home .new_pattern_list li b {
+	font-weight: normal;
+	color: #FC605A;
+}
+
+.home .new_pattern_list li span {
+	float: right;
+	line-height: 21px;
+	color: #8f8f94;
+}

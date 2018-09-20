@@ -1,0 +1,204 @@
+.userpage_seller {
+	padding-top: 0;
+	background-color: #e8e8e8;
+}
+
+.userpage_seller .myphoto {
+	position: relative;
+	width: 100%;
+	height: 288px;
+	background: url(../../static/img/yuantiao.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.userpage_seller .photoandname {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.userpage_seller .headphoto {
+	width: 80px;
+	height: 80px;
+	border: 1PX solid #fff;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.userpage_seller .name {
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+.userpage_seller .headphoto img {
+	width: 100%;
+	height: 100%;
+}
+
+.userpage_seller .userdata {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	background-color: rgb(0, 0, 0, 0.5);
+}
+
+.userpage_seller .userdata li {
+	flex: 1;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.userpage_seller .userdata li p {
+	margin-bottom: 5px;
+}
+.userpage_seller .allorder {
+	background-color: #fff;
+}
+
+.userpage_seller .allorder .title {
+	padding: 8px;
+	color: #FC605A;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 21px;
+	border-bottom: 1px solid #c3c3c3;
+}
+
+.userpage_seller .allorder .title span {
+	font-size: 17px;
+}
+
+.userpage_seller .allorder .title p {
+	float: right;
+	color: gray;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.userpage_seller .allorder ul {
+	display: flex;
+	padding: 17px 0;
+	border-bottom: 1px solid #c3c3c3;
+}
+
+.userpage_seller .allorder ul li {
+	flex: 1;
+	text-align: center;
+}
+
+.userpage_seller .allorder ul li p {
+	color: black;
+}
+
+
+.userpage_seller .allorderHandle {
+	background-color: #fff;
+}
+
+.userpage_seller .allorderHandle .title {
+	padding: 8px;
+	color: #FC605A;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 21px;
+	border-bottom: 1px solid #c3c3c3;
+}
+
+.userpage_seller .allorderHandle .title span {
+	font-size: 17px;
+}
+
+.userpage_seller .allorderHandle .title p {
+	float: right;
+	color: gray;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.userpage_seller .allorderHandle ul {
+	display: flex;
+	padding: 17px 0;
+	border-bottom: 1px solid #c3c3c3;
+}
+
+.userpage_seller .allorderHandle ul li {
+	flex: 1;
+	text-align: center;
+}
+
+.userpage_seller .allorderHandle ul li p {
+	color: black;
+}
+
+.userpage_seller .allproduct {
+	background-color: #fff;
+}
+
+.userpage_seller .allproduct .title {
+	padding: 8px;
+	color: #FC605A;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 21px;
+	border-bottom: 1px solid #c3c3c3;
+}
+
+.userpage_seller .allproduct .title span {
+	font-size: 17px;
+}
+
+.userpage_seller .allproduct .title p {
+	float: right;
+	color: gray;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.userpage_seller .allproduct ul {
+	display: flex;
+	padding: 17px 0;
+	border-bottom: 1px solid #c3c3c3;
+}
+
+.userpage_seller .allproduct ul li {
+	flex: 1;
+	text-align: center;
+}
+
+.userpage_seller .allproduct ul li p {
+	color: black;
+}
+
+.userpage_seller .userpage_seller .options .mint-cell {
+	border-bottom: 1px solid #d3d3d3;
+	padding-left: 10px;
+}
+
+.userpage_seller .userpage_seller .options .mint-cell:nth-child(1) .mint-cell-value {
+	color: #F56B6B;
+	letter-spacing: 2px;
+}
+
+.userpage_seller .options .mint-cell:nth-child(2) .mint-cell-value,
+.userpage_seller .options .mint-cell:nth-child(3) .mint-cell-value,
+.userpage_seller .options .mint-cell:nth-child(4) .mint-cell-value {
+	/*text-align: left;*/
+	color: #F56B6B;
+	letter-spacing: 4px;
+}
+
+.userpage_seller .options .mint-cell:nth-last-child(1) {
+	margin-top: 5px;
+}
+
+.userpage_seller p.iconfont {
+	font-size: 26px;
+}

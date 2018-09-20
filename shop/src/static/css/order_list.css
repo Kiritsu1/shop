@@ -1,0 +1,123 @@
+	.ordercardlist {}
+	
+	.order_list .ordercardlist li {
+		width: 100%;
+		padding: 10px 3%;
+		background-color: #fff;
+		margin-bottom: 5px;
+		box-shadow: 0 1px 4px 1px #D3D3D3;
+	}
+	
+	.order_list .ordercardlist li .order_title {
+		margin-bottom: 10px;
+	}
+	
+	.order_list .ordercardlist li .order_title .time {
+		color: #999;
+		line-height: 21px;
+		font-size: 17px;
+	}
+	
+	.order_list .ordercardlist li .order_title .state {
+		color: #F15353;
+		float: right;
+	}
+	
+	.order_list .ordercardlist li .order_center {
+		border-top: 1px solid #E3E3E3;
+		padding-top: 8px;
+		padding-bottom: 5px;
+	}
+	
+	.order_list .ordercardlist li .order_center .order_center_left {
+		float: left;
+		width: 30%;
+	}
+	
+	.order_list .ordercardlist li .order_center .order_center_left img {
+		width: 100%;
+	}
+	
+	.order_list .ordercardlist li .order_center .order_center_right {
+		float: left;
+		width: 70%;
+		padding: 5px 5px 0 8px;
+		font-size: 14px;
+	}
+	
+	.order_list .ordercardlist li .order_center .order_center_right p:nth-child(1) {
+		font-size: 16px;
+		line-height: 1.3rem;
+		margin-bottom: 5px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+	}
+	
+	.order_list .ordercardlist li .order_center .order_center_right p:nth-child(2) {
+		font-size: 14px;
+		margin-bottom: 5px;
+		color: #8f8f94;
+	}
+	
+	.order_list .ordercardlist li .order_center .order_center_right p:nth-child(3) {
+		text-align: right;
+		font-size: 14px;
+		margin-bottom: 5px;
+		color: #F14E41;
+		font-weight: bold;
+	}
+	
+	.order_list .ordercardlist li .order_center .order_center_right p:nth-child(4) {
+		text-align: right;
+		font-size: 14px;
+		margin-bottom: 5px;
+		color: #8f8f94;
+	}
+	
+	.order_list .ordercardlist li .sum {
+		line-height: 21px;
+		border-top: 1px solid #E3E3E3;
+		padding-top: 8px;
+		margin-bottom: 10px;
+	}
+	
+	.order_list .ordercardlist li .sum span {
+		letter-spacing: 1px;
+		float: right;
+		color: #8f8f94;
+	}
+	
+	.order_list .ordercardlist li .btns {
+		border-top: 1px solid #E3E3E3;
+		width: 100%;
+		padding: 10px 0;
+		border-bottom: 1px solid #E3E3E3;
+	}
+	
+	.order_list .ordercardlist li .btns .confirm_receipt {
+		float: right;
+		height: 30px;
+		font-size: 14px;
+		margin-right: 5px;
+	}
+	
+	.order_list .ordercardlist li .btns .refund,
+	.order_list .ordercardlist li .btns .gopayment {
+		background-color: #31b705;
+		float: right;
+		height: 30px;
+		margin-right: 5px;
+		font-size: 14px;
+		color: #fff;
+	}
+	
+	.order_list .ordercardlist li .btns .order_detail {
+		color: #000;
+		float: right;
+		height: 30px;
+		margin-right: 5px;
+		font-size: 14px;
+	}

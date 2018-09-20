@@ -1,0 +1,12 @@
+	.app {
+		height: 100%;
+		overflow: scroll;
+	}
+	
+	.router-enter-active,
+	.router-leave-active {}
+	
+	.router-enter,
+	.router-leave-to {
+		opacity: 0;
+	}

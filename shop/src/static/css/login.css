@@ -1,0 +1,26 @@
+	.login .username {
+		margin-top: 20px;
+	}
+	
+	.login .password {
+		margin-bottom: 10px;
+	}
+	
+	.login .loginbtn {
+		width: 80%;
+		margin: 0 auto;
+	}
+	
+	.login .autologin {
+		margin-bottom: 20px;
+	}
+	
+	.login .options {
+		margin-top: 25px;
+		text-align: center;
+	}
+	
+	.login .options a {
+		margin: 0 10px;
+		color: #007aff;
+	}

@@ -1,0 +1,44 @@
+@font-face {
+	font-family: iconfont;
+	font-weight: normal;
+	font-style: normal;
+	src: url('./iconfont2.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-unie611:before { content: "\e6c5"; }
+
+.icon-shop:before { content: "\e601"; }
+
+.icon-03:before { content: "\e606"; }
+
+.icon-previewright:before { content: "\e75c"; }
+
+.icon-fenlei:before { content: "\e600"; }
+
+.icon-yooxi:before { content: "\e631"; }
+
+.icon-xiajia:before { content: "\e65d"; }
+
+.icon-shangjia:before { content: "\e65b"; }
+
+.icon-home-g:before { content: "\e646"; }
+
+.icon-goods-active:before { content: "\e6ea"; }
+
+.icon-kefu:before { content: "\e666"; }
+
+.icon-gucci_shoutibao:before { content: "\e632"; }
+
+.icon-shou-cang:before { content: "\e60d"; }
+
+.icon-shou-cang1:before { content: "\e621"; }
+
+

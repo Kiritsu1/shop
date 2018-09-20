@@ -1,0 +1,37 @@
+.add_address .mint-switch-input:checked+.mint-switch-core {
+	border-color: #ef4f4f;
+	background-color: #ef4f4f;
+}
+
+.add_address .picker-items {
+	width: 100%;
+}
+
+.add_address .picker-slot {
+	font-size: 14px;
+	overflow: hidden;
+	position: relative;
+	max-height: 100%;
+}
+
+.add_address .slot1 {
+	width: 100px;
+	height: 200px;
+}
+
+.add_address .slot2 {
+	width: 20px;
+}
+
+.add_address .slot3 {
+	width: 100px;
+	height: 200px;
+}
+
+.add_address .mint-popup-bottom {
+	width: 100%;
+}
+
+.add_address .mint-field-core {
+	color: #888;
+}

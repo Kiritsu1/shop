@@ -1,0 +1,182 @@
+.myprod .prodList {}
+
+.myprod .prodList li {
+	width: 100%;
+	padding: 10px 3%;
+	background-color: #fff;
+	margin-bottom: 5px;
+	box-shadow: 0 1px 4px 1px #D3D3D3;
+}
+
+.myprod .prodList li .prod_title {
+	margin-bottom: 10px;
+}
+
+.myprod .prodList li .prod_title .time {
+	color: #999;
+	line-height: 21px;
+	font-size: 17px;
+}
+
+.myprod .prodList li .prod_title .state {
+	color: #F15353;
+	float: right;
+}
+
+.myprod .prodList li .prod_center {
+	border-top: 1px solid #E3E3E3;
+	padding-top: 8px;
+	padding-bottom: 5px;
+}
+
+.myprod .prodList li .prod_center .prod_center_left {
+	float: left;
+	width: 30%;
+}
+
+.myprod .prodList li .prod_center .prod_center_left img {
+	width: 100%;
+}
+
+.myprod .prodList li .prod_center .prod_center_right {
+	float: left;
+	width: 70%;
+	padding: 5px 5px 0 8px;
+	font-size: 14px;
+}
+
+.myprod .prodList li .prod_center .prod_center_right p:nth-child(1) {
+	font-size: 16px;
+	line-height: 1.3rem;
+	margin-bottom: 5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+.myprod .prodList li .prod_center .prod_center_right p:nth-child(2) {
+	font-size: 14px;
+	margin-bottom: 5px;
+	color: #8f8f94;
+}
+
+.myprod .prodList li .prod_center .prod_center_right p:nth-child(3) {
+	text-align: right;
+	font-size: 14px;
+	margin-bottom: 5px;
+	color: #F14E41;
+	font-weight: bold;
+}
+
+.myprod .prodList li .prod_center .prod_center_right p:nth-child(4) {
+	text-align: right;
+	font-size: 14px;
+	margin-bottom: 5px;
+	color: #8f8f94;
+}
+
+.myprod .prodList li .price {
+	border-top: 1px solid #E3E3E3;
+}
+
+.myprod .prodList li .price .market_price {
+	float: left;
+	width: 50%;
+	line-height: 21px;
+	padding-top: 8px;
+	margin-bottom: 10px;
+}
+
+.myprod .prodList li .price .market_price span {
+	font-size: 14px;
+	margin-right: 20px;
+	letter-spacing: 1px;
+	float: right;
+	color: #8f8f94;
+}
+
+.myprod .prodList li .price .sell_price {
+	float: left;
+	width: 50%;
+	line-height: 21px;
+	padding-top: 8px;
+	margin-bottom: 10px;
+}
+
+.myprod .prodList li .price .sell_price span {
+	letter-spacing: 1px;
+	float: right;
+	color: #8f8f94;
+	margin-right: 20px;
+}
+
+.myprod .prodList li .price .discount {
+	float: left;
+	width: 50%;
+	line-height: 21px;
+	padding-top: 8px;
+	margin-bottom: 10px;
+}
+
+.myprod .prodList li .price .discount span {
+	letter-spacing: 1px;
+	float: right;
+	color: #8f8f94;
+	margin-right: 20px;
+}
+
+.myprod .prodList li .price .lastprice {
+	float: left;
+	width: 50%;
+	line-height: 21px;
+	padding-top: 8px;
+	margin-bottom: 10px;
+}
+
+.myprod .prodList li .price .lastprice span {
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 1px;
+	float: right;
+	color: #F56B6B;
+	margin-right: 20px;
+}
+
+.myprod .prodList li .btns {
+	border-top: 1px solid #E3E3E3;
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 1px solid #E3E3E3;
+}
+
+.myprod .prodList li .btns .updateprod {
+	float: right;
+	height: 30px;
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+.myprod .prodList li .btns .putonsell {
+	float: right;
+	height: 30px;
+	font-size: 14px;
+	margin-right: 5px;
+	background-color: #31b705;
+}
+
+.myprod .prodList li .btns .deleteprod {
+	float: right;
+	height: 30px;
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+.myprod .nothing{
+	color: #a3a3a3;
+	position: fixed;	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}

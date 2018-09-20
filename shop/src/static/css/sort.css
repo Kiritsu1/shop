@@ -1,0 +1,120 @@
+.sort {
+	height: 100%;
+}
+
+.sort header {
+	height: 44px;
+	background-color: #FC605A;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+}
+
+.sort .fdj {
+	position: absolute;
+	top: 50%;
+	left: 40px;
+	font-size: 18px;
+	color: #FC605A;
+	transform: translateY(-50%);
+}
+
+.sort .center {
+	display: flex;
+}
+
+.sort .search {
+	height: 28px;
+	flex: 7;
+	border: 0;
+	border-radius: 14px;
+	padding-left: 40px;
+	margin: 8px 16px;
+	color: #909090;
+}
+
+.sort .searchBtn {
+	position: absolute;
+	top: 8px;
+	right: 16px;
+	height: 28px;
+	color: #fff;
+	background-color: #fb9c98;
+}
+
+.sort .prodSortBox {
+	height: 100%;
+	overflow: scroll;
+	float: left;
+	width: 20%;
+}
+
+.sort .prodSort {
+	flex-direction: column;
+}
+
+.sort .prodSort .mint-tab-item {
+	border-bottom: 1px solid #d3d3d3;
+}
+
+.sort .prodSort .mint-tab-item.is-selected {
+	border-right: 3px solid #FC605A;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+.sort .prodSort .mint-tab-item-label {
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.sort .prodList {
+	height: 100%;
+	overflow: scroll;
+	width: 80%;
+	padding: 4px;
+	font-size: 14px;
+}
+
+.sort .prodList .mint-tab-container-item {
+	width: 100%;
+}
+
+.sort .prodList a {
+	display: block;
+	float: left;
+	width: 47%;
+	margin: 1%;
+	padding: 3%;
+	background-color: #fff;
+	background-origin: border-box;
+}
+
+.sort .prodList img {
+	width: 100%;
+}
+
+.sort .prodList p {
+	overflow: hidden;
+	width: 100%;
+	margin: 2% 0;
+	color: #333;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.sort .prodList b {
+	font-weight: normal;
+	color: #FC605A;
+}
+
+.sort .prodList span {
+	float: right;
+	line-height: 21px;
+	color: #8f8f94;
+}
+
+.sort .prodSort .is-selected {
+	border-bottom: 3px solid #FC605A;
+}

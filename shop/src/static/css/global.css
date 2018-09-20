@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	background-color: #f3f3f3 !important;
+	height: 100%;
+}
+
+.ellipsis1 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+}
+
+.ellipsis2 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+.tmpl {
+	padding-bottom: 64px;
+	height: 100%;
+	padding-top: 44px;
+	overflow: scroll;
+	font-size: 16px;
+}
+
+*::-webkit-scrollbar {
+	/*隐藏滚动条*/
+	display: none;
+}
+
+div::-webkit-scrollbar {
+	/*隐藏滚动条*/
+	display: none;
+}
+a:-webkit-any-link {
+    color: #000;
+    cursor: pointer;
+}
+input,
+button,
+select,
+textarea {
+	outline: none
+}
+
+textarea {
+	resize: none
+}
+
+
+/*版心*/
+
+.center {
+	margin: 0 10px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.is-selected {
+	color: #FC605A !important;
+}
+
+.mint-tab-item .mint-tab-item-label {
+	font-size: 17px;
+}

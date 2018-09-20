@@ -1,0 +1,181 @@
+.shopcart .mint-header {
+	background-color: #fff;
+	color: #FC605A;
+	font-size: 17px;
+	box-shadow: 0px 1px 6px #ccc;
+}
+
+.shopcart .mint-header .mint-header-title {
+	color: #000;
+}
+
+.shopcart .shopcartList ul {
+	background-color: #fff;
+	padding-left: 5px;
+}
+
+.shopcart .shopcartList ul li {
+	position: relative;
+	width: 100%;
+	display: flex;
+	padding: 10px 10px 10px 40px;
+	border: solid 1px #e6e6e6;
+}
+
+.shopcart .shopcartList ul li .myswitch {
+	position: absolute;
+	top: 50%;
+	left: 2%;
+	transform: translateY(-50%);
+}
+
+.shopcart .myswitch {
+	width: 20px;
+	height: 20px;
+	border: solid 1px #a2a2a2;
+	border-radius: 50%;
+}
+
+.shopcart .myswitch input {
+	display: none;
+}
+
+.shopcart .myswitch label {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.shopcart .myswitch.isPicked {
+	background: url(../../static/img/s_goods_pitch.png) no-repeat center center #FC605A;
+	background-size: 100% 100%;
+}
+
+.shopcart .shopcartList img {
+	/*flex: 2;*/
+	width: 90px;
+	height: 90px;
+}
+
+.shopcart .shopcartList .pay-contro {
+	position: relative;
+	padding: 0 40px 5px 10px;
+	overflow: hidden;
+	flex: 8;
+	font-size: 14px;
+}
+
+.shopcart .shopcartList .pay-contro p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+.shopcart .shopcartList .contro {
+	position: absolute;
+	right: 10%;
+	bottom: 0;
+}
+
+.shopcart .shopcartList .pay-contro>span {
+	position: absolute;
+	left: 20px;
+	bottom: 0;
+	color: red;
+}
+
+.shopcart .shopcartList .pay-contro>i {
+	font-style: normal;
+	font-size: 12px;
+	color: #afafaf;
+}
+
+.shopcart .shopcartList .contro span {
+	display: block;
+	float: right;
+	text-align: center;
+	border: solid 1px #e6e6e6;
+	color: #000000;
+	width: 26px;
+}
+
+.shopcart .cartfooter {
+	position: fixed;
+	bottom: 65px;
+	display: flex;
+	width: 100%;
+	background-color: #fff;
+}
+
+.shopcart .cartfooter .selectAll {
+	flex: 1;
+}
+
+.shopcart .cartfooter .selectAll .myswitch {
+	float: left;
+	margin: 10px 0px;
+}
+
+.shopcart .cartfooter .selectAll span {
+	float: left;
+	margin-left: 10px;
+	line-height: 41px;
+}
+
+.shopcart .cartfooter .sum {
+	flex: 3;
+	line-height: 41px;
+}
+
+.shopcart .cartfooter .sum p {
+	float: right;
+	margin-right: 20px;
+}
+
+.shopcart .cartfooter .sum p b {
+	color: red;
+}
+
+.shopcart .cartfooter button {
+	flex: 2;
+}
+
+.shopcart .cart-contro {
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.shopcart .cart-contro button {
+	color: #F56B6B;
+	height: 25px;
+	float: right;
+	margin: 5px 5px;
+	border-radius: 22px;
+}
+
+.shopcart .cart-contro-enter-active {
+	animation: bounce-in .2s linear;
+}
+
+.shopcart .cart-contro-leave-active {
+	animation: bounce-in .2s reverse linear;
+}
+
+@keyframes bounce-in {
+	0% {
+		height: 0;
+	}
+	100% {
+		height: 35px;
+	}
+}
+
+.shopcart .cartIsEmpty {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #a3a3a3;
+}

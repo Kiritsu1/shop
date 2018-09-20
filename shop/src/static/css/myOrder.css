@@ -1,0 +1,40 @@
+
+.myOrder .allorder {
+	background-color: #fff;
+}
+
+.myOrder .allorder .title {
+	padding: 8px;
+	color: #FC605A;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 21px;
+	border-bottom: 1px solid #c3c3c3;
+}
+
+.myOrder .allorder .title span {
+	font-size: 17px;
+}
+
+.myOrder .allorder .title p {
+	float: right;
+	color: gray;
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.myOrder .allorder ul {
+	display: flex;
+	padding: 17px 0;
+	border-bottom: 1px solid #c3c3c3;
+}
+
+.myOrder .allorder ul li {
+	flex: 1;
+	text-align: center;
+}
+
+.myOrder .allorder ul li p.iconfont {
+	color: black;
+	font-size: 26px;
+}
